@@ -2,8 +2,9 @@
 Linux Firewall using iptables with basic rules
 
 Designed  a firewall for Linux that will implement the following rules:
- Set the default policies to DROP.
- Create a set of rules that will:
+
+* Set the default policies to DROP.
+* Create a set of rules that will:
 o Permit inbound/outbound ssh packets.
 o Permit inbound/outbound www packets.
 o Drop inbound traffic to port 80 (http) from source ports less than 1024.
